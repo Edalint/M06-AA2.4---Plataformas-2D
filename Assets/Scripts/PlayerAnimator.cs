@@ -44,13 +44,13 @@ public class PlayerAnimator : MonoBehaviour
         {
             if (anim)
             {
-                anim?.SetBool("isRunning", false);
+                anim.SetBool("isRunning", false);
             }
         }
 
         if (anim && coll)
         {
-            anim?.SetBool("isGrounded", coll.isColliding);
+            anim.SetBool("isGrounded", coll.isColliding);
         }
 
         lastPosition = transform.position;
