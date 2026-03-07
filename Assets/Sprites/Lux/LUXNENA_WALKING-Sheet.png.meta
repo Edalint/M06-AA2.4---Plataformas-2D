@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: 6ddf5d14ffb899d438613142b4cfb401
+guid: 11d453f97bf3b2545875b0fc343fe782
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1051060330273133550
-    second: Lux_Jump-Sheet_0
+      213: 7974892185655757444
+    second: LUXNENA_WALKING-Sheet_0
   - first:
-      213: -8319273988451191805
-    second: Lux_Jump-Sheet_1
+      213: -957440313405334474
+    second: LUXNENA_WALKING-Sheet_1
   - first:
-      213: -6829469423260852575
-    second: Lux_Jump-Sheet_2
+      213: -1327762401431987750
+    second: LUXNENA_WALKING-Sheet_2
+  - first:
+      213: 937832796465943098
+    second: LUXNENA_WALKING-Sheet_3
+  - first:
+      213: 6989726642466888716
+    second: LUXNENA_WALKING-Sheet_4
+  - first:
+      213: -4604643864632240309
+    second: LUXNENA_WALKING-Sheet_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lux_Jump-Sheet_0
+      name: LUXNENA_WALKING-Sheet_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 8
-        width: 30
-        height: 54
+        x: 9
+        y: 0
+        width: 27
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21ca098c232e961f0800000000000000
-      internalID: -1051060330273133550
+      spriteID: 48acc08a0328cae60800000000000000
+      internalID: 7974892185655757444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lux_Jump-Sheet_1
+      name: LUXNENA_WALKING-Sheet_1
       rect:
         serializedVersion: 2
-        x: 83
-        y: 8
-        width: 30
-        height: 55
+        x: 57
+        y: 0
+        width: 27
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 304383982600c8c80800000000000000
-      internalID: -8319273988451191805
+      spriteID: 63c16d19b1d76b2f0800000000000000
+      internalID: -957440313405334474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lux_Jump-Sheet_2
+      name: LUXNENA_WALKING-Sheet_2
       rect:
         serializedVersion: 2
-        x: 147
-        y: 8
-        width: 30
-        height: 55
+        x: 104
+        y: 0
+        width: 27
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +174,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ae152e5eb9d831a0800000000000000
-      internalID: -6829469423260852575
+      spriteID: ad9d6847127d29de0800000000000000
+      internalID: -1327762401431987750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUXNENA_WALKING-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a325014a5f9d30d00800000000000000
+      internalID: 937832796465943098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUXNENA_WALKING-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c9251295f700160800000000000000
+      internalID: 6989726642466888716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUXNENA_WALKING-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47d9633dc40910c0800000000000000
+      internalID: -4604643864632240309
       vertices: []
       indices: 
       edges: []
@@ -175,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fdcbf0cfa996e224b9320b56d33bf5d9
+    spriteID: 2648172faf88d074b90be09840a96d28
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lux_Jump-Sheet_0: -1051060330273133550
-      Lux_Jump-Sheet_1: -8319273988451191805
-      Lux_Jump-Sheet_2: -6829469423260852575
+      LUXNENA_WALKING-Sheet_0: 7974892185655757444
+      LUXNENA_WALKING-Sheet_1: -957440313405334474
+      LUXNENA_WALKING-Sheet_2: -1327762401431987750
+      LUXNENA_WALKING-Sheet_3: 937832796465943098
+      LUXNENA_WALKING-Sheet_4: 6989726642466888716
+      LUXNENA_WALKING-Sheet_5: -4604643864632240309
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

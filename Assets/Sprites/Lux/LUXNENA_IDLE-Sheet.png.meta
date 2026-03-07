@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 6ddf5d14ffb899d438613142b4cfb401
+guid: 819ad0dbc315e3c48a775af5bd1b7d50
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1051060330273133550
-    second: Lux_Jump-Sheet_0
+      213: -2607789131519839030
+    second: LUXNENA_IDLE-Sheet_0
   - first:
-      213: -8319273988451191805
-    second: Lux_Jump-Sheet_1
+      213: 447226235247604979
+    second: LUXNENA_IDLE-Sheet_1
   - first:
-      213: -6829469423260852575
-    second: Lux_Jump-Sheet_2
+      213: -4533845162490726829
+    second: LUXNENA_IDLE-Sheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lux_Jump-Sheet_0
+      name: LUXNENA_IDLE-Sheet_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 8
-        width: 30
-        height: 54
+        x: 10
+        y: 0
+        width: 27
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21ca098c232e961f0800000000000000
-      internalID: -1051060330273133550
+      spriteID: ac4b2aef9954fcbd0800000000000000
+      internalID: -2607789131519839030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lux_Jump-Sheet_1
+      name: LUXNENA_IDLE-Sheet_1
       rect:
         serializedVersion: 2
-        x: 83
-        y: 8
-        width: 30
-        height: 55
+        x: 58
+        y: 0
+        width: 27
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 304383982600c8c80800000000000000
-      internalID: -8319273988451191805
+      spriteID: 3f43b2634edd43600800000000000000
+      internalID: 447226235247604979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lux_Jump-Sheet_2
+      name: LUXNENA_IDLE-Sheet_2
       rect:
         serializedVersion: 2
-        x: 147
-        y: 8
-        width: 30
-        height: 55
+        x: 106
+        y: 0
+        width: 27
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ae152e5eb9d831a0800000000000000
-      internalID: -6829469423260852575
+      spriteID: 356fd1798db8411c0800000000000000
+      internalID: -4533845162490726829
       vertices: []
       indices: 
       edges: []
@@ -175,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fdcbf0cfa996e224b9320b56d33bf5d9
+    spriteID: 34558cf7e3023554b83c292854b91de2
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lux_Jump-Sheet_0: -1051060330273133550
-      Lux_Jump-Sheet_1: -8319273988451191805
-      Lux_Jump-Sheet_2: -6829469423260852575
+      LUXNENA_IDLE-Sheet_0: -2607789131519839030
+      LUXNENA_IDLE-Sheet_1: 447226235247604979
+      LUXNENA_IDLE-Sheet_2: -4533845162490726829
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

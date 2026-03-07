@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9048589092411555108}
   - component: {fileID: 3243087586775609386}
   - component: {fileID: 7334155638151383580}
+  - component: {fileID: 1593335911955726426}
   - component: {fileID: 7586484683201666435}
   - component: {fileID: 7288653121365874940}
   m_Layer: 0
@@ -155,11 +156,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be7b38c6b64cc844cb3515b8e5cb9cd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 0.4
-  offset: {x: 0, y: -0.7}
+  radius: 1.75
+  offset: {x: 0, y: 1.55}
   mask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 64
   isColliding: 0
 --- !u!114 &3243087586775609386
 MonoBehaviour:
@@ -174,6 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 20
+  maxJumps: 1
   jumpCount: 0
 --- !u!114 &7334155638151383580
 MonoBehaviour:
@@ -189,6 +191,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedGrounded: 5
   speedAir: 10
+--- !u!114 &1593335911955726426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049034427259966825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef3afe7824eefbc4ea442377c7083a75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  altAnimations: {fileID: 22100000, guid: ecfb906f1a1165146b217556dcb03591, type: 2}
+  normalBodyCollider: {fileID: 7288653121365874940}
+  altBodyCollider: {fileID: -4428049331374920170, guid: 168741aa6dfe326409c4b6475828a518, type: 3}
+  changeGroundSensorToo: 1
+  normalGroundRadius: 0.4
+  normalGroundOffset: {x: 0, y: -0.7}
+  altGroundRadius: 0.3
+  altGroundOffset: {x: 0, y: -0.55}
+  normalMaxJumps: 1
+  altMaxJumps: 2
 --- !u!114 &7586484683201666435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,7 +228,7 @@ MonoBehaviour:
   playerSpeed: {x: 0, y: 0}
   playerSpeedAmount: 0
   playerSpeedNormalized: {x: 0, y: 0}
-  playerSpeedAmountThreshold: 0.1
+  playerSpeedAmountThreshold: 0.01
   allowDiagonals: 1
   direction: 0
 --- !u!61 &7288653121365874940

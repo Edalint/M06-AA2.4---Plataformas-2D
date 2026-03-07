@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LUXNENA
+  m_Controller: {fileID: 9100000, guid: bc9760ebe18af07438a7397381b2a687, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 4e9b9c63c9fd45b4e90a61c0e6d6e347, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 21218c57bccb19c44b14a8f370d1dccd, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0baeb52bbbeda304f876d02b1c4b5cb3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 23b3bb730f5dc1440a9c312cf09aea62, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9a695359ee3fff84f8c1ef464fb3d667, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d315e8c7396490d43b6605d734820468, type: 2}

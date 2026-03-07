@@ -4,8 +4,11 @@ using UnityEngine;
 [RequireComponent(typeof(CircleCollisionDetector))]
 public class PlayerJump : MonoBehaviour
 {
-    public float force = 20;
+    public float force = 20f;
+
+    [Min(1)] public int maxJumps = 1;  // 1 = normal, 2 = doble salto
     public int jumpCount;
+
     Rigidbody2D rb;
     CircleCollisionDetector coll;
     InputSystem_Actions inputs;
@@ -20,18 +23,27 @@ public class PlayerJump : MonoBehaviour
 
     void Update()
     {
+        // Al aterrizar, resetea contador
         if (coll.startedCollidingThisFrame)
-        {
             jumpCount = 0;
-        }
-        if (coll.isColliding && inputs.Player.Jump.WasPressedThisFrame())
+
+        if (inputs.Player.Jump.WasPressedThisFrame())
         {
-            Jump();
+            // Primer salto solo si estás en suelo
+            bool canFirstJump = coll.isColliding && jumpCount < maxJumps;
+
+            // Saltos extra (doble salto) solo si YA saltaste al menos una vez
+            bool canExtraJump = !coll.isColliding && jumpCount > 0 && jumpCount < maxJumps;
+
+            if (canFirstJump || canExtraJump)
+                Jump();
         }
     }
+
     public void Jump()
     {
         jumpCount++;
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, force );
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, force);
+        // Si te da error con linearVelocity, usa rb.velocity
     }
 }
