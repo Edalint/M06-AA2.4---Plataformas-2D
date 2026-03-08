@@ -3,8 +3,13 @@ using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(PlayerJump))]
+
+
 public class PlayerModeToggle : MonoBehaviour
 {
+    [Header("Tilemaps (enable one at a time)")]
+public GameObject tileMap1;
+public GameObject tileMap2;
     [Header("Animations")]
     public AnimatorOverrideController altAnimations; // Player_AltAnimations
 
@@ -70,6 +75,10 @@ public class PlayerModeToggle : MonoBehaviour
         // 3) Cambiar collider del cuerpo
         if (normalBodyCollider != null) normalBodyCollider.enabled = !useAlt;
         if (altBodyCollider != null) altBodyCollider.enabled = useAlt;
+
+        // 5) Cambiar Tilemaps
+if (tileMap1 != null) tileMap1.SetActive(!useAlt);
+if (tileMap2 != null) tileMap2.SetActive(useAlt);
 
 
         // A veces ayuda a que física y gizmos se actualicen inmediato

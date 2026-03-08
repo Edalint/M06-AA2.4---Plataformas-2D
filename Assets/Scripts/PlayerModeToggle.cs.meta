@@ -1,2 +1,16 @@
 fileFormatVersion: 2
 guid: ef3afe7824eefbc4ea442377c7083a75
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tileMap1: {instanceID: 0}
+  - tileMap2: {instanceID: 0}
+  - altAnimations: {instanceID: 0}
+  - normalBodyCollider: {instanceID: 0}
+  - altBodyCollider: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
