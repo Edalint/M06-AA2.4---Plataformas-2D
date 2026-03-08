@@ -203,6 +203,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef3afe7824eefbc4ea442377c7083a75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tileMap1: {fileID: 0}
+  tileMap2: {fileID: 0}
   altAnimations: {fileID: 22100000, guid: ecfb906f1a1165146b217556dcb03591, type: 2}
   normalBodyCollider: {fileID: 7288653121365874940}
   altBodyCollider: {fileID: -4428049331374920170, guid: 168741aa6dfe326409c4b6475828a518, type: 3}
