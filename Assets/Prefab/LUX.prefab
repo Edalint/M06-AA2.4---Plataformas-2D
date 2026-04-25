@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 1593335911955726426}
   - component: {fileID: 7586484683201666435}
   - component: {fileID: 7288653121365874940}
+  - component: {fileID: 1949528990104192249}
   m_Layer: 0
   m_Name: LUX
   m_TagString: Untagged
@@ -215,6 +216,10 @@ MonoBehaviour:
   altGroundOffset: {x: 0, y: -0.55}
   normalMaxJumps: 1
   altMaxJumps: 2
+  uiImage: {fileID: 0}
+  uiSprite1: {fileID: 0}
+  uiSprite2: {fileID: 0}
+  setNativeSizeOnSwap: 0
 --- !u!114 &7586484683201666435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,6 +284,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.8125, y: 3.8125}
   m_EdgeRadius: 0
+--- !u!114 &1949528990104192249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049034427259966825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ef31d41e9774c41aa8d7ca978be551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3930314645057400926
 GameObject:
   m_ObjectHideFlags: 0

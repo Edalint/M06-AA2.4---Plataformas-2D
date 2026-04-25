@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(PlayerJump))]
@@ -27,6 +28,13 @@ public GameObject tileMap2;
     [Header("Jumps per mode")]
     [Min(1)] public int normalMaxJumps = 1;
     [Min(1)] public int altMaxJumps = 2;
+
+    // ✅ NUEVO: UI Sprite Toggle
+    [Header("UI Sprite Toggle")]
+    public Image uiImage;       // Arrastra aquí el Image del Canvas
+    public Sprite uiSprite1;    // Sprite 1
+    public Sprite uiSprite2;    // Sprite 2
+    public bool setNativeSizeOnSwap = false;
 
     Animator anim;
     PlayerJump jump;
@@ -80,6 +88,14 @@ public GameObject tileMap2;
 if (tileMap1 != null) tileMap1.SetActive(!useAlt);
 if (tileMap2 != null) tileMap2.SetActive(useAlt);
 
+        // ✅ NUEVO: Cambiar Sprite en la UI
+        if (uiImage != null)
+        {
+            uiImage.sprite = useAlt ? uiSprite2 : uiSprite1;
+
+            if (setNativeSizeOnSwap)
+                uiImage.SetNativeSize();
+        }
 
         // A veces ayuda a que física y gizmos se actualicen inmediato
         Physics2D.SyncTransforms();
