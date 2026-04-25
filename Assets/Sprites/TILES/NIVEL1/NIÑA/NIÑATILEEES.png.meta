@@ -103,7 +103,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_0"
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 80
         width: 16
         height: 16
@@ -125,7 +125,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_1"
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 80
         width: 16
         height: 16
@@ -147,7 +147,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_2"
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 80
         width: 16
         height: 16
@@ -169,7 +169,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_3"
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 80
         width: 16
         height: 16
@@ -191,7 +191,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_4"
       rect:
         serializedVersion: 2
-        x: 80
+        x: 64
         y: 80
         width: 16
         height: 16
@@ -213,7 +213,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_5"
       rect:
         serializedVersion: 2
-        x: 96
+        x: 80
         y: 80
         width: 16
         height: 16
@@ -235,7 +235,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_6"
       rect:
         serializedVersion: 2
-        x: 112
+        x: 96
         y: 80
         width: 16
         height: 16
@@ -257,8 +257,8 @@ TextureImporter:
       name: "NI\xD1ATILEEES_7"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 112
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -279,7 +279,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_8"
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 64
         width: 16
         height: 16
@@ -301,7 +301,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_9"
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 64
         width: 16
         height: 16
@@ -323,7 +323,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_10"
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 64
         width: 16
         height: 16
@@ -345,7 +345,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_11"
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 64
         width: 16
         height: 16
@@ -367,7 +367,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_12"
       rect:
         serializedVersion: 2
-        x: 80
+        x: 64
         y: 64
         width: 16
         height: 16
@@ -389,7 +389,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_13"
       rect:
         serializedVersion: 2
-        x: 96
+        x: 80
         y: 64
         width: 16
         height: 16
@@ -411,7 +411,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_14"
       rect:
         serializedVersion: 2
-        x: 112
+        x: 96
         y: 64
         width: 16
         height: 16
@@ -433,8 +433,8 @@ TextureImporter:
       name: "NI\xD1ATILEEES_15"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
+        x: 112
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -455,7 +455,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_16"
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 48
         width: 16
         height: 16
@@ -477,7 +477,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_17"
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 48
         width: 16
         height: 16
@@ -499,7 +499,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_18"
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 48
         width: 16
         height: 16
@@ -521,7 +521,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_19"
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 48
         width: 16
         height: 16
@@ -543,7 +543,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_20"
       rect:
         serializedVersion: 2
-        x: 80
+        x: 64
         y: 48
         width: 16
         height: 16
@@ -565,7 +565,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_21"
       rect:
         serializedVersion: 2
-        x: 96
+        x: 80
         y: 48
         width: 16
         height: 16
@@ -587,7 +587,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_22"
       rect:
         serializedVersion: 2
-        x: 112
+        x: 96
         y: 48
         width: 16
         height: 16
@@ -609,8 +609,8 @@ TextureImporter:
       name: "NI\xD1ATILEEES_23"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 112
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -631,7 +631,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_24"
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 32
         width: 16
         height: 16
@@ -653,7 +653,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_25"
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 32
         width: 16
         height: 16
@@ -675,7 +675,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_26"
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 32
         width: 16
         height: 16
@@ -697,7 +697,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_27"
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 32
         width: 16
         height: 16
@@ -719,7 +719,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_28"
       rect:
         serializedVersion: 2
-        x: 80
+        x: 64
         y: 32
         width: 16
         height: 16
@@ -741,7 +741,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_29"
       rect:
         serializedVersion: 2
-        x: 96
+        x: 80
         y: 32
         width: 16
         height: 16
@@ -763,7 +763,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_30"
       rect:
         serializedVersion: 2
-        x: 112
+        x: 96
         y: 32
         width: 16
         height: 16
@@ -785,8 +785,8 @@ TextureImporter:
       name: "NI\xD1ATILEEES_31"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
+        x: 112
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -807,7 +807,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_32"
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 16
         width: 16
         height: 16
@@ -829,7 +829,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_33"
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 16
         width: 16
         height: 16
@@ -851,7 +851,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_34"
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 16
         width: 16
         height: 16
@@ -873,7 +873,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_35"
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 16
         width: 16
         height: 16
@@ -895,7 +895,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_36"
       rect:
         serializedVersion: 2
-        x: 80
+        x: 64
         y: 16
         width: 16
         height: 16
@@ -917,7 +917,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_37"
       rect:
         serializedVersion: 2
-        x: 96
+        x: 80
         y: 16
         width: 16
         height: 16
@@ -939,7 +939,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_38"
       rect:
         serializedVersion: 2
-        x: 112
+        x: 96
         y: 16
         width: 16
         height: 16
@@ -961,8 +961,8 @@ TextureImporter:
       name: "NI\xD1ATILEEES_39"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 112
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -983,7 +983,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_40"
       rect:
         serializedVersion: 2
-        x: 16
+        x: 0
         y: 0
         width: 16
         height: 16
@@ -1005,7 +1005,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_41"
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 0
         width: 16
         height: 16
@@ -1027,7 +1027,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_42"
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 0
         width: 16
         height: 16
@@ -1049,7 +1049,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_43"
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 0
         width: 16
         height: 16
@@ -1071,7 +1071,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_44"
       rect:
         serializedVersion: 2
-        x: 80
+        x: 64
         y: 0
         width: 16
         height: 16
@@ -1093,7 +1093,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_45"
       rect:
         serializedVersion: 2
-        x: 96
+        x: 80
         y: 0
         width: 16
         height: 16
@@ -1115,7 +1115,7 @@ TextureImporter:
       name: "NI\xD1ATILEEES_46"
       rect:
         serializedVersion: 2
-        x: 112
+        x: 96
         y: 0
         width: 16
         height: 16
@@ -1129,6 +1129,28 @@ TextureImporter:
       bones: []
       spriteID: 9526da8e1ecc2c74db791d421cd1a68e
       internalID: 1889556564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "NI\xD1ATILEEES_47"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c3cc758956cd746af1409d2dc1d391
+      internalID: 439845495
       vertices: []
       indices: 
       edges: []
@@ -1189,6 +1211,7 @@ TextureImporter:
       "NI\xD1ATILEEES_44": 1581900104
       "NI\xD1ATILEEES_45": -626176150
       "NI\xD1ATILEEES_46": 1889556564
+      "NI\xD1ATILEEES_47": 439845495
       "NI\xD1ATILEEES_5": 1178765530
       "NI\xD1ATILEEES_6": -64155235
       "NI\xD1ATILEEES_7": -1618443508
