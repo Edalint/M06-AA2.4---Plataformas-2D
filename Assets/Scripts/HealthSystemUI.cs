@@ -50,7 +50,7 @@ public class HealthSystemUI : MonoBehaviour
 
         // Tecla H: restar vida (con cooldown de 3s)
         if (Keyboard.current != null && Keyboard.current.hKey.wasPressedThisFrame)
-            RemoveHealth(1);
+            RemoveHealth(3);
 
         UpdatePlayerTint();
     }

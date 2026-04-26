@@ -4,7 +4,8 @@ using UnityEngine;
 public class PolaroidCounterUI2D : MonoBehaviour
 {
     [SerializeField] private TMP_Text polaroidText;
-    private int count;
+  private int count;
+    public int Count => count;
 
     private void Awake()
     {
