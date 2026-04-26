@@ -20,9 +20,9 @@ GameObject:
   - component: {fileID: 7288653121365874940}
   - component: {fileID: 1949528990104192249}
   - component: {fileID: 8960464472985938771}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LUX
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -525,9 +525,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1055975870423919485}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LUX
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
