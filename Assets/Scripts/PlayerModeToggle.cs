@@ -8,7 +8,9 @@ using UnityEngine.UI;
 
 public class PlayerModeToggle : MonoBehaviour
 {
+
     [Header("Tilemaps (enable one at a time)")]
+
 public GameObject tileMap1;
 public GameObject tileMap2;
     [Header("Animations")]
@@ -42,6 +44,9 @@ public GameObject tileMap2;
 
     RuntimeAnimatorController baseController;
     bool altMode;
+
+    // ✅ AÑADIDO: Exponer el modo actual sin cambiar lógica
+    public bool IsAltMode => altMode;
 
     void Awake()
     {
